@@ -9,7 +9,7 @@ services:
     git:
       # --- IMPORTANT ---
       # You MUST change this line to your GitHub repository URL
-      repository: github.com/LyNouphoueung2/telegram-download-bot
+      repository: github.com/LyNouphoeung2/telegram-download-bot
       branch: main
     
     build:
@@ -28,4 +28,5 @@ services:
         # This links to the Secret you will create in the Koyeb dashboard
 
         valueFrom: my-bot-token
+
 
