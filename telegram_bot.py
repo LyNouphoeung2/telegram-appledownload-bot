@@ -40,7 +40,7 @@ DOWNLOAD_DIR.mkdir(exist_ok=True)
 FFMPEG_PATH = "/usr/bin/ffmpeg"
 
 # --- ចំណងជើងថ្មីតាមការស្នើសុំ ---
-BOT_CAPTION = "ដោនឡូតវីដេអូដោយ @Apple_Downloader_bot"
+BOT_CAPTION = "ចង់ដោនឡូតវីដេអូសូមចុច @Apple_Downloader_bot"
 
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
